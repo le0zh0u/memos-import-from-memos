@@ -1,6 +1,9 @@
 import * as fs from "fs";
 import axios from "axios";
-import config from "./config.json" assert { type: "json" };
+// import config from "./config.json" assert { type: "json" };
+import { createRequire } from "module";
+const require = createRequire(import.meta.url);
+const config = require("./config.json");
 
 function getHeaders() {
   const headers = {};

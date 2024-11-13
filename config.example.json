@@ -1,6 +1,6 @@
 {
-  "sourceUrl": "https://old.memos.com/api/v1/memo?openId=xxx",
+  "sourceUrl": "https://old.memos.com/api/v1/memos",
   "sourceToken": "",
-  "targetUrl": "https://new.memos.com/api/v1/memo",
+  "targetUrl": "https://new.memos.com/api/v1/memos",
   "targetToken": "xxx"
 }
